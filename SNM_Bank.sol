@@ -9,7 +9,7 @@ contract SNM_Bank is ERC1155 {
     using SafeMath for uint256;
     ERC20 snm_token;
     RewardERC20 reward_token;
-    uint256 BigNumber;
+    uint256 public BigNumber;
     constructor(ERC20 _snm_token, RewardERC20 _reward_token, uint256 _BigNumber) public ERC1155("")
     {
         snm_token = _snm_token;
