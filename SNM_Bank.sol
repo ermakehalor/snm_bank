@@ -2,7 +2,7 @@ pragma solidity ^0.8.0;
 
 import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/token/ERC1155/ERC1155.sol";
 import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/token/ERC20/ERC20.sol";
-import "Reward_Token.sol";
+import "https://raw.githubusercontent.com/ermakehalor/snm_bank/main/Reward_Token.sol";
 import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/utils/math/SafeMath.sol";
 
 contract SNM_Bank is ERC1155 {
