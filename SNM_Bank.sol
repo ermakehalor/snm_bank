@@ -30,7 +30,7 @@ contract SNM_Bank is ERC1155 {
         snm_token.transfer(msg.sender, _amount_snm2);
         uint256 currentTimeStamp = block.timestamp;
         uint256 reward_amount = _amount_snm2.mul(BigNumber).div(DepositID).sub(_amount_snm2.mul(BigNumber).div(currentTimeStamp));
-        if (reward_amount >= 0)
+        if (reward_amount > 0)
         {reward_token.mint_from_contract(msg.sender, reward_amount);}
     }
 }
